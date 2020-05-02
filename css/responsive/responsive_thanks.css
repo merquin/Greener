@@ -1,0 +1,58 @@
+@media screen and (max-width: 425px){
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .navegation-menu-header{
+        display: none;
+    }
+    
+    *::selection{
+        background: #00ffa8;
+        color: #ffffff;
+    }   
+    
+    body{
+        background: #fafefc;
+    }   
+    
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 30px 0px;
+        background: transparent;
+    }
+    
+    .content-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        background: transparent;
+    }
+    
+    .logo-greener{
+        display: flex;
+        width: 150px;
+        height: 28.5px;
+        background-image: url(../../img/logo_greener.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* --- */
+
+    .box-message-thanks{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+}

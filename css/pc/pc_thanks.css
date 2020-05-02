@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*::selection{
+    background: #00ffa8;
+    color: #ffffff;
+}   
+
+body{
+    background: #fafefc;
+}   
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 0px;
+    background: transparent;
+}
+
+.content-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    background: transparent;
+}
+
+.logo-greener{
+    display: flex;
+    width: 150px;
+    height: 28.5px;
+    background-image: url(../../img/logo_greener.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.navegation-menu-header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.buttons-menu-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 400px;
+    margin: 0px 50px 0px 0px;
+}
+
+.button-home-menu{
+    display: flex;
+    color: #3d3d3d;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.button-us-menu{
+    display: flex;
+    color: #3d3d3d;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.button-services-menu{
+    display: flex;
+    color: #3d3d3d;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.button-briefcase-menu{
+    display: flex;
+    color: #3d3d3d;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.button-join-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    background: #00ffa8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
+}
+
+/* --- */
+
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.box-message-thanks{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.title-message-thanks{
+    display: flex;
+    font-size: 20px;
+    color: #3d3d3d;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+
+.button-go-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 45px;
+    background: #00ffa8;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0px auto;
+    border-radius: 5px;
+}
